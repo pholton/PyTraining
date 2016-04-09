@@ -9,7 +9,6 @@ def collatz(num):
 
 
 def main():
-    num = 0
     try:
         num = int(input('Enter a number: '))
         collatz(num)
